@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+/* Universal selector */
+*,
+*::before
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* root */
+:root{
+    --primaryColor: black;
+    --secondaryColor: white;
+    --alternaativeColor: grey;
+    --homeBg: rgb(107, 100, 100);
+    --awesomeColor: #617219;
+    --font-family: 'Play', sans-serif;
+}
+
+/* logo */
+
+#logo{
+    width: 15rem;
+    height: fit-content;
+}
+body{
+   font-family: 'Play', sans-serif;
+   background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/218894fb-2ed2-4a32-b4dd-7e017fccd106/df2b9e6-b4be8ccf-a37c-400d-acf9-458c8be1924e.jpg/v1/fill/w_1280,h_720,q_75,strp/4k_anime_wallpaper_for_pc_by_rockydevilweeb_df2b9e6-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvMjE4ODk0ZmItMmVkMi00YTMyLWI0ZGQtN2UwMTdmY2NkMTA2XC9kZjJiOWU2LWI0YmU4Y2NmLWEzN2MtNDAwZC1hY2Y5LTQ1OGM4YmUxOTI0ZS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.TsVYlRixl5gXD50UA1aPVY9Jb5BuPiKi3m3dWIdoILs);
+   background-size: cover;
+}
+
+.nav_links{
+    display:flex;
+    justify-content: space-evenly;
+}
+#kop{
+    border-style: solid;
+    border-color: rebeccapurple;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+
